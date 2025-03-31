@@ -1,0 +1,10 @@
+# models/staging/schema.yml
+version: 2
+
+sources:
+  - name: meat_flu_analysis
+    tables:
+      - name: producer_price_data
+        description: "Monthly prices for beef, pork, chicken, and eggs."
+      - name: avian_flu_data
+        description: "Monthly avian flu outbreaks, locations, and flock sizes."
